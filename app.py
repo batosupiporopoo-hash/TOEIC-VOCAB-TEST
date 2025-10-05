@@ -570,7 +570,7 @@ def seconds_left():
         return 0
     return max(0, int(state.end_time - time.time()))
 
-if state.quiz_running and not state.finished and not state.time_up:
+if state.quiz_running and not state.finished and not state.time_up and not state.pending_feedback:
     # 1秒ごとに再描画
     st_autorefresh(interval=1000, key="tick_timer")
 
@@ -753,7 +753,7 @@ def render_choices_feedback():
             klass += " incorrect"
         st.markdown(f'<div class="{klass}">{i+1}. {ch["label"]}</div>', unsafe_allow_html=True)
     # タイムアップが迫っていても、ここは1秒待ってから進める
-    time.sleep(1.0)
+    time.sleep(2.0)
     state.pending_feedback = False
     advance_question(state)
     rerun()
