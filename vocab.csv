@@ -1,383 +1,615 @@
-word,pos,meaning
-agenda,noun,議題
-applicant,noun,応募者
-asset,noun,資産
-authority,noun,権限
-budget,noun,予算
-candidate,noun,候補者
-capacity,noun,容量
-commodity,noun,商品
-complaint,noun,苦情
-contract,noun,契約
-criteria,noun,基準
-deadline,noun,締切
-deficit,noun,赤字
-device,noun,装置
-discount,noun,割引
-division,noun,部門
-document,noun,書類
-equipment,noun,設備
-estimate,noun,見積もり
-expense,noun,費用
-facility,noun,施設
-fund,noun,資金
-inventory,noun,在庫
-invoice,noun,請求書
-liability,noun,負債
-acquire,verb,獲得する
-allocate,verb,割り当てる
-approve,verb,承認する
-assess,verb,評価する
-attend,verb,出席する
-authorize,verb,権限を与える
-comply,verb,従う
-contribute,verb,貢献する
-coordinate,verb,調整する
-decline,verb,減少する
-deliver,verb,配達する
-distribute,verb,配布する
-enhance,verb,強化する
-expand,verb,拡大する
-generate,verb,生み出す
-implement,verb,実行する
-maintain,verb,維持する
-negotiate,verb,交渉する
-obtain,verb,得る
-postpone,verb,延期する
-purchase,verb,購入する
-recommend,verb,推薦する
-reduce,verb,減らす
-retain,verb,保持する
-submit,verb,提出する
-accurate,adjective,正確な
-affordable,adjective,手頃な
-available,adjective,利用可能な
-confidential,adjective,機密の
-consistent,adjective,一貫した
-crucial,adjective,重要な
-efficient,adjective,効率的な
-eligible,adjective,資格のある
-flexible,adjective,柔軟な
-frequent,adjective,頻繁な
-initial,adjective,初期の
-mandatory,adjective,義務的な
-mutual,adjective,相互の
-numerous,adjective,多数の
-optional,adjective,任意の
-potential,adjective,潜在的な
-previous,adjective,前の
-reliable,adjective,信頼できる
-significant,adjective,重要な
-substantial,adjective,かなりの
-approximately,adverb,おおよそ
-briefly,adverb,簡潔に
-constantly,adverb,常に
-currently,adverb,現在
-deliberately,adverb,意図的に
-efficiently,adverb,効率的に
-eventually,adverb,最終的に
-frequently,adverb,頻繁に
-initially,adverb,最初に
-instantly,adverb,即座に
-mutually,adverb,相互に
-nearly,adverb,ほぼ
-occasionally,adverb,時折
-particularly,adverb,特に
-previously,adverb,以前に
-promptly,adverb,迅速に
-readily,adverb,容易に
-relatively,adverb,比較的
-simultaneously,adverb,同時に
-thoroughly,adverb,徹底的に
-audit,noun,監査
-benchmark,noun,基準
-brand,noun,ブランド
-campaign,noun,キャンペーン
-client,noun,顧客
-contractor,noun,請負業者
-merger,noun,合併
-policy,noun,方針
-strategy,noun,戦略
-accommodation,noun,宿泊施設
-advertisement,noun,広告
-agreement,noun,合意
-announcement,noun,発表
-application,noun,申請
-appointment,noun,予約
-approval,noun,承認
-arrangement,noun,手配
-assignment,noun,任務
-attendance,noun,出席
-authorization,noun,認可
-bankruptcy,noun,破産
-branch,noun,支店
-broker,noun,仲介業者
-certificate,noun,証明書
-clientele,noun,顧客層
-commission,noun,手数料
-compliment,noun,賛辞
-conclusion,noun,結論
-conference,noun,会議
-confirmation,noun,確認
-consent,noun,同意
-consultation,noun,相談
-convenience,noun,便利さ
-adapt,verb,適応する
-adjust,verb,調整する
-advertise,verb,宣伝する
-affect,verb,影響を与える
-anticipate,verb,予期する
-assemble,verb,組み立てる
-attach,verb,添付する
-calculate,verb,計算する
-clarify,verb,明確にする
-collaborate,verb,協力する
-compensate,verb,補償する
-conclude,verb,結論づける
-confirm,verb,確認する
-consolidate,verb,統合する
-construct,verb,建設する
-consult,verb,相談する
-convert,verb,変換する
-define,verb,定義する
-delegate,verb,委任する
-demonstrate,verb,実演する
-detect,verb,検出する
-determine,verb,決定する
-eliminate,verb,排除する
-enforce,verb,施行する
-adequate,adjective,十分な
-advanced,adjective,先進的な
-annual,adjective,年次の
-appropriate,adjective,適切な
-approximate,adjective,おおよその
-beneficial,adjective,有益な
-competitive,adjective,競争力のある
-comprehensive,adjective,包括的な
-considerable,adjective,かなりの
-convenient,adjective,便利な
-corporate,adjective,企業の
-critical,adjective,重大な
-dependent,adjective,依存している
-distinct,adjective,明確な
-domestic,adjective,国内の
-effective,adjective,効果的な
-exceptional,adjective,卓越した
-exclusive,adjective,排他的な
-extensive,adjective,広範な
-accordingly,adverb,それに応じて
-accurately,adverb,正確に
-actively,adverb,積極的に
-adequately,adverb,十分に
-annually,adverb,毎年
-appropriately,adverb,適切に
-automatically,adverb,自動的に
-barely,adverb,かろうじて
-commonly,adverb,一般的に
-completely,adverb,完全に
-consequently,adverb,その結果
-critically,adverb,厳しく
-effectively,adverb,効果的に
-entirely,adverb,完全に
-extensively,adverb,広範囲に
-financially,adverb,財政的に
-gradually,adverb,徐々に
-independently,adverb,独立して
-innovation,noun,革新
-initiative,noun,主導権
-instruction,noun,指示
-insurance,noun,保険
-investment,noun,投資
-leadership,noun,指導力
-maintenance,noun,保守
-negotiation,noun,交渉
-partnership,noun,提携
-productivity,noun,生産性
-acquisition,noun,買収
-advertiser,noun,広告主
-affiliation,noun,提携
-analysis,noun,分析
-appraisal,noun,評価
-architecture,noun,建築
-banking,noun,銀行業務
-brokerage,noun,仲介業
-catalog,noun,カタログ
-certification,noun,認証
-competitor,noun,競合他社
-compliance,noun,遵守
-concession,noun,譲歩
-conflict,noun,対立
-consequence,noun,結果
-consultant,noun,コンサルタント
-contingency,noun,不測の事態
-correspondence,noun,通信
-curriculum,noun,教育課程
-deduction,noun,控除
-accelerate,verb,加速する
-acknowledge,verb,認める
-administer,verb,管理する
-advocate,verb,主張する
-certify,verb,証明する
-circulate,verb,流通させる
-compile,verb,編集する
-convey,verb,伝える
-dedicate,verb,捧げる
-disclose,verb,開示する
-elaborate,verb,詳述する
-endorse,verb,支持する
-facilitate,verb,促進する
-forecast,verb,予測する
-illustrate,verb,説明する
-initiate,verb,開始する
-justify,verb,正当化する
-accessible,adjective,アクセス可能な
-ambitious,adjective,野心的な
-applicable,adjective,適用可能な
-attentive,adjective,注意深い
-authentic,adjective,本物の
-balanced,adjective,バランスの取れた
-capable,adjective,有能な
-cautious,adjective,用心深い
-compliant,adjective,順守している
-confident,adjective,自信のある
-considerate,adjective,思いやりのある
-credible,adjective,信頼できる
-dedicated,adjective,献身的な
-deliberate,adjective,故意の
-distinctive,adjective,特徴的な
-diverse,adjective,多様な
-durable,adjective,耐久性のある
-abruptly,adverb,突然
-alternatively,adverb,代わりに
-apparently,adverb,見たところ
-collectively,adverb,集団で
-explicitly,adverb,明示的に
-hierarchy,noun,階層
-hospitality,noun,接客業
-implementation,noun,実施
-incorporation,noun,法人化
-indicator,noun,指標
-infrastructure,noun,インフラ
-legislation,noun,法律
-logistics,noun,物流
-outcome,noun,成果
-revenue,noun,収益
-contractual,adjective,契約上の
-brochure,noun,パンフレット
-bulletin,noun,掲示
-dealership,noun,販売代理店
-deposit,noun,預金
-description,noun,説明
-destination,noun,目的地
-drawback,noun,欠点
-guideline,noun,指針
-headquarters,noun,本社
-incentive,noun,インセンティブ
-incident,noun,出来事
-inspection,noun,検査
-installment,noun,分割払い
-lease,noun,賃貸契約
-manufacturer,noun,メーカー
-memorandum,noun,回覧文書
-morale,noun,士気
-overtime,noun,残業
-payroll,noun,給与台帳
-permission,noun,許可
-personnel,noun,人事
-portfolio,noun,資産構成
-precaution,noun,予防策
-premises,noun,敷地
-procurement,noun,調達
-profitability,noun,収益性
-promotion,noun,昇進
-provision,noun,規定
-quota,noun,割当
-receipt,noun,領収書
-recipient,noun,受取人
-recruiter,noun,採用担当
-recruitment,noun,採用
-redundancy,noun,人員削減
-reimbursement,noun,払い戻し
-remainder,noun,残り
-renovation,noun,改装
-replacement,noun,交換
-representative,noun,代表者
-reputation,noun,評判
-reservation,noun,予約
-retailer,noun,小売業者
-retail,noun,小売
-schedule,noun,日程
-shipment,noun,出荷
-shortage,noun,不足
-specification,noun,仕様
-subsidiary,noun,子会社
-supervisor,noun,監督者
-surplus,noun,余剰
-survey,noun,調査
-tariff,noun,関税
-termination,noun,終了
-turnover,noun,離職率
-utility,noun,公共料金
-vendor,noun,仕入先
-warehouse,noun,倉庫
-warranty,noun,保証
-wholesale,noun,卸売
-workflow,noun,作業工程
-amend,verb,修正する
-apply,verb,応募する
-arrange,verb,手配する
-assign,verb,割り当てる
-assure,verb,保証する
-attain,verb,達成する
-boost,verb,押し上げる
-cancel,verb,取り消す
-ensure,verb,確実にする
-evaluate,verb,評価する
-finalize,verb,最終決定する
-handle,verb,対応する
-improve,verb,改善する
-increase,verb,増加する
-launch,verb,立ち上げる
-manufacture,verb,製造する
-monitor,verb,監視する
-optimize,verb,最適化する
-organize,verb,整理する
-proceed,verb,進める
-promote,verb,昇進させる
-provide,verb,提供する
-refund,verb,返金する
-reinforce,verb,強化する
-replace,verb,交換する
-require,verb,要求する
-resolve,verb,解決する
-schedule,verb,予定する
-ship,verb,出荷する
-streamline,verb,合理化する
-supervise,verb,監督する
-supply,verb,供給する
-suspend,verb,一時停止する
-temporary,adjective,一時的な
-tentative,adjective,仮の
-conventional,adjective,従来の
-defective,adjective,欠陥のある
-demanding,adjective,要求が厳しい
-feasible,adjective,実現可能な
-fiscal,adjective,財政の
-global,adjective,世界的な
-internal,adjective,内部の
-external,adjective,外部の
-outstanding,adjective,未払いの
-preliminary,adjective,予備的な
-prospective,adjective,見込みの
-reasonable,adjective,妥当な
-responsible,adjective,責任がある
-sophisticated,adjective,洗練された
-ultimate,adjective,究極の
-immediately,adverb,すぐに
-firmly,adverb,しっかりと
-notably,adverb,特に
-primarily,adverb,主として
-roughly,adverb,大まかに
-significantly,adverb,著しく
-simply,adverb,単純に
-typically,adverb,典型的に
+word, pos, meaning, level
+representative, 名詞, 代表者、代理人, 700
+inquiry, 名詞, 問い合わせ、調査, 700
+replacement, 名詞, 交換、代替, 700
+certificate, 名詞, 証明書、免許, 700
+precaution, 名詞, 予防、用心, 700
+assignment, 名詞, 任務、割り当て, 700
+consequence, 名詞, 結果、影響, 700
+premise, 名詞, 前提、仮定, 700
+qualification, 名詞, 資格、適性, 700
+reference, 名詞, 参照、言及, 700
+substitute, 名詞, 代替、代理, 700
+privilege, 名詞, 特権、恩恵, 700
+contribution, 名詞, 貢献、寄付, 700
+inspection, 名詞, 検査、視察, 700
+transition, 名詞, 移行、変遷, 700
+compensation, 名詞, 補償、報酬, 700
+institute, 動詞, 設立する、研究所, 700
+correspondent, 名詞, 通信員、文通者, 700
+recession, 名詞, 不況、後退, 700
+deficit, 名詞, 赤字、不足, 700
+aquaintance, 名詞, 知人、面識, 700
+patent, 名詞, 特許、特許権, 700
+suburb, 名詞, 郊外, 700
+anticipate, 動詞, 予期する, 700
+implement, 動詞, 実行する、道具, 700
+restore, 動詞, 回復する、修復する, 700
+resume, 動詞, 再開する, 700
+suspend, 動詞, 一時停止する, 700
+acknowledge, 動詞, 認める, 700
+predict, 動詞, 予測する, 700
+authorize, 動詞, 許可する, 700
+eliminate, 動詞, 除去する, 700
+specify, 動詞, 明確にする, 700
+retain, 動詞, 保持する, 700
+accomplish, 動詞, 成し遂げる, 700
+involve, 動詞, 関与する, 700
+locate, 動詞, 位置づける, 700
+quote, 動詞, 引用する, 700
+undergo, 動詞, 経験する, 700
+accumulate, 動詞, 蓄積する, 700
+mount, 動詞, 増加する、登る, 700
+significant, 形容詞, 重要な, 700
+relevant, 形容詞, 関連する, 700
+valid, 形容詞, 有効な, 700
+overseas, 形容詞, 海外の, 700
+prominent, 形容詞, 著名な, 700
+adequate, 形容詞, 適切な, 700
+exclusive, 形容詞, 排他的な, 700
+substantial, 形容詞, かなりの, 700
+desirable, 形容詞, 望ましい, 700
+artificial, 形容詞, 人工的な, 700
+prosperous, 形容詞, 繁栄した, 700
+subtle, 形容詞, 微妙な, 700
+favorable, 形容詞, 好意的な, 700
+punctual, 形容詞, 時間を守る, 700
+spectacular, 形容詞, 壮観な, 700
+utmost, 形容詞, 最大限の, 700
+apparent, 形容詞, 明白な, 700
+preliminary, 形容詞, 予備の, 700
+perishable, 形容詞, 腐りやすい, 700
+capability, 名詞, 能力, 700
+counterpart, 名詞, 対応する人・物, 700
+publicity, 名詞, 宣伝、知名度, 700
+finding, 名詞, 発見、調査結果, 700
+proceed, 動詞, 進む, 700
+allowance, 名詞, 手当、許容, 700
+enthusiasm, 名詞, 熱意, 700
+equivalent, 形容詞, 同等の, 700
+acquisition, 名詞, 取得、習得, 700
+commodity, 名詞, 商品, 700
+deregulation, 名詞, 規制緩和, 700
+exposure, 名詞, 露出、暴露, 700
+estate, 名詞, 不動産, 700
+welfare, 名詞, 福祉, 700
+indication, 名詞, 兆候、表示, 700
+accomplishment, 名詞, 達成、成果, 700
+prevention, 名詞, 予防, 700
+supervision, 名詞, 監督, 700
+consumption, 名詞, 消費, 700
+awareness, 名詞, 認識、意識, 700
+bond, 名詞, 絆、債券, 700
+burden, 名詞, 負担, 700
+learning, 名詞, 学習, 700
+yield, 動詞, 産出する、屈する, 700
+courtesy, 名詞, 礼儀, 700
+outcome, 名詞, 結果, 700
+strain, 名詞, 緊張、負担, 700
+faculty, 名詞, 学部、能力, 700
+fraction, 名詞, 部分、断片, 700
+resolution, 名詞, 決議、解決, 700
+insight, 名詞, 洞察, 700
+successor, 名詞, 後継者, 700
+conservation, 名詞, 保護, 700
+restoration, 名詞, 修復、復元, 700
+ward, 名詞, 病棟、区, 700
+peer, 名詞, 同僚、仲間, 700
+transmission, 名詞, 送信、伝達, 700
+depression, 名詞, 不況、うつ病, 700
+discipline, 名詞, 規律、訓練, 700
+phenomenon, 名詞, 現象, 700
+prosperity, 名詞, 繁栄, 700
+affection, 名詞, 愛情, 700
+disaster, 名詞, 災害, 700
+omit, 動詞, 省略する, 700
+stimulate, 動詞, 刺激する, 700
+resist, 動詞, 抵抗する, 700
+attain, 動詞, 達成する, 700
+stall, 動詞, 行き詰まる, 700
+confess, 動詞, 告白する, 700
+inhabit, 動詞, 住む, 700
+commence, 動詞, 開始する, 700
+extract, 動詞, 抽出する, 700
+boast, 動詞, 誇る, 700
+disclose, 動詞, 明らかにする, 700
+emerge, 動詞, 現れる, 700
+transmit, 動詞, 送信する, 700
+declare, 動詞, 宣言する, 700
+evolve, 動詞, 進化する, 700
+finalize, 動詞, 仕上げる, 700
+prolong, 動詞, 延長する, 700
+deregulate, 動詞, 規制を撤廃する, 700
+multiply, 動詞, 増やす、掛ける, 700
+stage, 動詞, 段階、舞台, 700
+utilize, 動詞, 利用する, 700
+plow, 動詞, 耕す, 700
+drain, 動詞, 排出する, 700
+cite, 動詞, 引用する, 700
+define, 動詞, 定義する, 700
+fascinate, 動詞, 魅了する, 700
+inherit, 動詞, 受け継ぐ, 700
+abandon, 動詞, 放棄する, 700
+absorb, 動詞, 吸収する, 700
+assert, 動詞, 主張する, 700
+confront, 動詞, 立ち向かう, 700
+conquer, 動詞, 征服する, 700
+foster, 動詞, 育てる, 700
+grasp, 動詞, つかむ, 700
+halt, 動詞, 停止する, 700
+resemble, 動詞, 似ている, 700
+comprehend, 動詞, 理解する, 700
+slip, 動詞, 滑る, 700
+spark, 動詞, 火花、刺激, 700
+sustain, 動詞, 維持する, 700
+genuine, 形容詞, 本物の, 700
+overwhelming, 形容詞, 圧倒的な, 700
+tremendous, 形容詞, 途方もない, 700
+extraordinary, 形容詞, 並外れた, 700
+immense, 形容詞, 莫大な, 700
+lasting, 形容詞, 永続する, 700
+intense, 形容詞, 強烈な, 700
+competent, 形容詞, 有能な, 700
+sophisticated, 形容詞, 洗練された, 700
+vigorous, 形容詞, 活発な, 700
+abstract, 形容詞, 抽象的な, 700
+elaborate, 形容詞, 精巧な, 700
+fascinating, 形容詞, 魅力的な, 700
+infant, 名詞, 乳児, 700
+classified, 形容詞, 分類された, 700
+abrupt, 形容詞, 突然の, 700
+acute, 形容詞, 鋭い、激しい, 700
+abundant, 形容詞, 豊富な, 700
+compulsory, 形容詞, 強制的な, 700
+inevitable, 形容詞, 避けられない, 700
+rigit, 形容詞, 硬直した, 700
+splendid, 形容詞, 素晴らしい, 700
+concerned, 形容詞, 関心のある, 700
+harsh, 形容詞, 厳しい, 700
+industrious, 形容詞, 勤勉な, 700
+proficient, 形容詞, 熟達した, 700
+superior, 形容詞, 優れた, 700
+conventional, 形容詞, 従来の, 700
+devoted, 形容詞, 献身的な, 700
+harmful, 形容詞, 有害な, 700
+mere, 形容詞, 単なる, 700
+successive, 形容詞, 連続する, 700
+agreeable, 形容詞, 快適な, 700
+grand, 形容詞, 壮大な, 700
+prolonged, 形容詞, 長引いた, 700
+humble, 形容詞, 謙虚な, 700
+internal, 形容詞, 内部の, 700
+steadily, 副詞, 着実に, 700
+exclusively, 副詞, 排他的に, 700
+fully, 副詞, 完全に, 700
+consequently, 副詞, その結果として, 700
+nearly, 副詞, ほとんど, 700
+adequately, 副詞, 適切に, 700
+apparently, 副詞, 一見、明らかに, 700
+specifically, 副詞, 具体的に, 700
+fairly, 副詞, かなり、公平に, 700
+firmly, 副詞, しっかりと, 700
+prominently, 副詞, 目立って, 700
+allocate, 動詞, 割り当てる, 700
+amend, 動詞, 修正する, 700
+appraisal, 名詞, 評価, 700
+arbitrary, 形容詞, 任意の、独断的な, 700
+asset, 名詞, 資産, 700
+audit, 名詞, 監査, 700
+benchmark, 名詞, 基準, 700
+breach, 名詞, 違反, 700
+briefing, 名詞, 説明会, 700
+broker, 名詞, 仲介人, 700
+cater, 動詞, 料理を提供する、要求に応じる, 700
+charter, 名詞, 憲章、契約, 700
+collaborate, 動詞, 協力する, 700
+commute, 動詞, 通勤する, 700
+compliance, 名詞, 遵守, 700
+consolidate, 動詞, 統合する, 700
+contingency, 名詞, 不測の事態, 700
+convey, 動詞, 伝える, 700
+criteria, 名詞, 基準, 700
+deduct, 動詞, 控除する, 700
+delegate, 動詞, 委任する, 700
+deteriorate, 動詞, 悪化する, 700
+discrepancy, 名詞, 不一致, 700
+disrupt, 動詞, 混乱させる, 700
+dividend, 名詞, 配当, 700
+downsizing, 名詞, 人員削減, 700
+durable, 形容詞, 耐久性のある, 700
+enroll, 動詞, 登録する, 700
+entrepreneur, 名詞, 起業家, 700
+exceed, 動詞, 超える, 700
+exemption, 名詞, 免除, 700
+facilitate, 動詞, 促進する, 700
+feasible, 形容詞, 実現可能な, 700
+fluctuate, 動詞, 変動する, 700
+foresee, 動詞, 予見する, 700
+formulate, 動詞, 立案する, 700
+franchise, 名詞, フランチャイズ, 700
+gauge, 動詞, 測定する, 700
+incentive, 名詞, 動機、奨励金, 700
+incur, 動詞, 被る（損失など）, 700
+inventory, 名詞, 在庫, 700
+liability, 名詞, 負債、責任, 700
+mandatory, 形容詞, 義務的な, 700
+negotiate, 動詞, 交渉する, 700
+outsource, 動詞, 外注する, 700
+overhead, 名詞, 間接費, 700
+prospect, 名詞, 見込み, 700
+reimburse, 動詞, 払い戻す, 700
+restructure, 動詞, 再構築する, 700
+speculation, 名詞, 推測、投機, 700
+subsidiary, 名詞, 子会社, 700
+surplus, 名詞, 余剰, 700
+sustainability, 名詞, 持続可能性, 700
+terminate, 動詞, 終了する, 700
+turnover, 名詞, 離職率、売上高, 700
+unanimous, 形容詞, 全会一致の, 700
+undertake, 動詞, 引き受ける, 700
+utility, 名詞, 公共料金、実用性, 700
+viable, 形容詞, 実行可能な, 700
+voucher, 名詞, 引換券, 700
+warehouse, 名詞, 倉庫, 700
+withstand, 動詞, 耐える, 700
+workforce, 名詞, 労働力, 700
+accrue, 動詞, 発生する（利子など）, 700
+adverse, 形容詞, 不利な、有害な, 700
+affiliation, 名詞, 所属、提携, 700
+agenda, 名詞, 議題, 700
+backlog, 名詞, 未処理の仕事, 700
+bid, 名詞, 入札, 700
+blueprint, 名詞, 設計図、計画, 700
+clause, 名詞, 条項, 700
+collateral, 名詞, 担保, 700
+complement, 動詞, 補完する, 700
+concession, 名詞, 譲歩, 700
+consortium, 名詞, 共同事業体, 700
+contaminate, 動詞, 汚染する, 700
+conveyance, 名詞, 輸送、譲渡, 700
+deem, 動詞, 〜と見なす, 700
+deficiency, 名詞, 不足、欠陥, 700
+disposal, 名詞, 処分, 700
+diversify, 動詞, 多様化する, 700
+embark, 動詞, 着手する、乗り出す, 700
+endorse, 動詞, 支持する、裏書きする, 700
+entail, 動詞, 伴う、必要とする, 700
+equity, 名詞, 株式、公平, 700
+expenditure, 名詞, 支出, 700
+fiscal, 形容詞, 財政の, 700
+foreclosure, 名詞, 差し押さえ, 700
+impair, 動詞, 損なう, 700
+incidence, 名詞, 発生率, 700
+insolvent, 形容詞, 支払い不能の, 700
+intangible, 形容詞, 無形の, 700
+leverage, 名詞, てこ、影響力, 700
+liquidate, 動詞, 清算する, 700
+logistics, 名詞, 物流, 700
+adjust, 動詞, 調整する, 600
+approve, 動詞, 承認する, 600
+assemble, 動詞, 組み立てる、集める, 600
+assure, 動詞, 保証する, 600
+attract, 動詞, 引きつける, 600
+backup, 名詞, 予備、支援, 600
+bargain, 名詞, お買い得品、交渉, 600
+beneficial, 形容詞, 有益な, 600
+brief, 形容詞, 短時間の、簡潔な, 600
+capacity, 名詞, 能力、収容力, 600
+clarify, 動詞, 明確にする, 600
+comply, 動詞, 従う, 600
+concern, 名詞, 関心事、懸念, 600
+confirm, 動詞, 確認する, 600
+considerable, 形容詞, かなりの, 600
+consistent, 形容詞, 一貫した, 600
+consult, 動詞, 相談する, 600
+contain, 動詞, 含む, 600
+contractor, 名詞, 請負業者, 600
+contribute, 動詞, 貢献する, 600
+convert, 動詞, 変換する, 600
+cooperate, 動詞, 協力する, 600
+coordinate, 動詞, 調整する, 600
+courier, 名詞, 配達人, 600
+criticize, 動詞, 批判する, 600
+deal, 名詞, 取引, 600
+decline, 動詞, 減少する、断る, 600
+demonstrate, 動詞, 実演する、示す, 600
+deposit, 名詞, 預金、頭金, 600
+destination, 名詞, 目的地, 600
+detect, 動詞, 検出する, 600
+distribute, 動詞, 配布する, 600
+diverse, 形容詞, 多様な, 600
+donate, 動詞, 寄付する, 600
+duplicate, 動詞, 複製する, 600
+efficient, 形容詞, 効率的な, 600
+emphasize, 動詞, 強調する, 600
+enclose, 動詞, 同封する, 600
+enhance, 動詞, 高める, 600
+evaluate, 動詞, 評価する, 600
+exhibit, 動詞, 展示する, 600
+expand, 動詞, 拡大する, 600
+expire, 動詞, 期限が切れる, 600
+feedback, 名詞, フィードバック, 600
+flexible, 形容詞, 柔軟な, 600
+focus, 動詞, 集中する, 600
+forecast, 名詞, 予測, 600
+founder, 名詞, 創設者, 600
+generate, 動詞, 生み出す, 600
+handle, 動詞, 対処する, 600
+highlight, 動詞, 強調する, 600
+illustrate, 動詞, 説明する、図示する, 600
+impact, 名詞, 影響, 600
+indicate, 動詞, 示す, 600
+influence, 名詞, 影響, 600
+inquire, 動詞, 尋ねる, 600
+inspect, 動詞, 検査する, 600
+install, 動詞, 設置する, 600
+intend, 動詞, 意図する, 600
+interact, 動詞, 交流する, 600
+interrupt, 動詞, 中断する, 600
+introduce, 動詞, 紹介する, 600
+investigate, 動詞, 調査する, 600
+issue, 名詞, 問題、発行物, 600
+itemize, 動詞, 項目別にする, 600
+justify, 動詞, 正当化する, 600
+launch, 動詞, 開始する、発売する, 600
+maintain, 動詞, 維持する, 600
+mention, 動詞, 言及する, 600
+modify, 動詞, 修正する, 600
+notify, 動詞, 通知する, 600
+obtain, 動詞, 得る, 600
+operate, 動詞, 操作する, 600
+organize, 動詞, 整理する、企画する, 600
+participate, 動詞, 参加する, 600
+perceive, 動詞, 認識する, 600
+permit, 動詞, 許可する, 600
+postpone, 動詞, 延期する, 600
+prepare, 動詞, 準備する, 600
+preserve, 動詞, 保護する, 600
+prioritize, 動詞, 優先順位をつける, 600
+process, 名詞, 過程、処理, 600
+promote, 動詞, 昇進させる、促進する, 600
+propose, 動詞, 提案する, 600
+protect, 動詞, 守る, 600
+provide, 動詞, 提供する, 600
+purchase, 動詞, 購入する, 600
+recommend, 動詞, 推薦する, 600
+reduce, 動詞, 減らす, 600
+reflect, 動詞, 反映する, 600
+register, 動詞, 登録する, 600
+reinforce, 動詞, 強化する, 600
+relocate, 動詞, 移転する, 600
+remind, 動詞, 思い出させる, 600
+replace, 動詞, 取り替える, 600
+renew, 動詞, 更新する, 600
+reschedule, 動詞, 日程を変更する, 600
+resolve, 動詞, 解決する, 600
+review, 動詞, 見直す、再検討する, 600
+revise, 動詞, 修正する, 600
+schedule, 名詞, 予定、スケジュール, 600
+select, 動詞, 選ぶ, 600
+shift, 名詞, 交代勤務、変化, 600
+standard, 名詞, 基準, 600
+submit, 動詞, 提出する, 600
+succeed, 動詞, 成功する, 600
+suggest, 動詞, 提案する, 600
+supply, 名詞, 供給, 600
+support, 動詞, 支援する, 600
+survey, 名詞, 調査, 600
+target, 名詞, 目標, 600
+task, 名詞, 任務, 600
+track, 動詞, 追跡する, 600
+transfer, 動詞, 移す, 600
+translate, 動詞, 翻訳する, 600
+update, 動詞, 更新する, 600
+upgrade, 動詞, グレードアップする, 600
+verify, 動詞, 確認する, 600
+view, 名詞, 意見、眺め, 600
+warranty, 名詞, 保証, 600
+withdraw, 動詞, 引き出す、撤回する, 600
+access, 動詞, アクセスする, 600
+accompany, 動詞, 同行する, 600
+adapt, 動詞, 適応する, 600
+adhere, 動詞, 固守する, 600
+adjustment, 名詞, 調整, 600
+adopt, 動詞, 採用する, 600
+analyze, 動詞, 分析する, 600
+assess, 動詞, 評価する, 600
+assistance, 名詞, 支援, 600
+assumption, 名詞, 仮定, 600
+attach, 動詞, 添付する, 600
+attempt, 動詞, 試みる, 600
+availability, 名詞, 利用可能性, 600
+aware, 形容詞, 気づいている, 600
+retrieve, 動詞, 取り戻す, 600
+revive, 動詞, 復活させる, 600
+satisfy, 動詞, 満足させる, 600
+secure, 動詞, 確保する, 600
+seek, 動詞, 探し求める, 600
+shortage, 名詞, 不足, 600
+stability, 名詞, 安定, 600
+stipulate, 動詞, 規定する, 600
+sufficient, 形容詞, 十分な, 600
+supervise, 動詞, 監督する, 600
+surpass, 動詞, 超える, 600
+tolerate, 動詞, 許容する, 600
+transaction, 名詞, 取引, 600
+underestimate, 動詞, 過小評価する, 600
+urgent, 形容詞, 緊急の, 600
+vacant, 形容詞, 空いている, 600
+validate, 動詞, 有効にする, 600
+variation, 名詞, 変化, 600
+vendor, 名詞, 売り手, 600
+violation, 名詞, 違反, 600
+visual, 形容詞, 視覚的な, 600
+wage, 名詞, 賃金, 600
+willing, 形容詞, 意欲的な, 600
+withdrawal, 名詞, 引き出し、撤退, 600
+workshop, 名詞, ワークショップ、研修, 600
+acquire, 動詞, 習得する、取得する, 600
+adaptation, 名詞, 適応, 600
+affordable, 形容詞, 手頃な, 600
+alternative, 名詞, 代替案, 600
+anticipation, 名詞, 予期, 600
+applicant, 名詞, 応募者, 600
+appointment, 名詞, 予約、任命, 600
+attendance, 名詞, 出席, 600
+authorization, 名詞, 許可, 600
+automation, 名詞, 自動化, 600
+beneficiary, 名詞, 受益者, 600
+certification, 名詞, 認証, 600
+clarification, 名詞, 明確化, 600
+collaboration, 名詞, 協力, 600
+commitment, 名詞, 約束、献身, 600
+confidential, 形容詞, 機密の, 600
+confirmation, 名詞, 確認, 600
+consolidation, 名詞, 統合, 600
+contingent, 形容詞, 不確定の, 600
+convenience, 名詞, 便利, 600
+correction, 名詞, 修正, 600
+coverage, 名詞, 補償範囲、報道, 600
+credential, 名詞, 資格情報, 600
+dedication, 名詞, 献身, 600
+delegation, 名詞, 代表団、委任, 600
+delivery, 名詞, 配達, 600
+demonstration, 名詞, 実演, 600
+description, 名詞, 説明, 600
+designation, 名詞, 指定, 600
+detection, 名詞, 検出, 600
+effectiveness, 名詞, 有効性, 600
+efficiency, 名詞, 効率, 600
+engagement, 名詞, 約束、関与, 600
+enhancement, 名詞, 強化, 600
+enrollment, 名詞, 登録, 600
+entrepreneurship, 名詞, 起業家精神, 600
+evaluation, 名詞, 評価, 600
+examination, 名詞, 試験、検査, 600
+exception, 名詞, 例外, 600
+explanation, 名詞, 説明, 600
+extension, 名詞, 延長, 600
+facility, 名詞, 施設, 600
+flexibility, 名詞, 柔軟性, 600
+functionality, 名詞, 機能性, 600
+guideline, 名詞, 指針, 600
+identification, 名詞, 身分証明, 600
+implementation, 名詞, 実施, 600
+improvement, 名詞, 改善, 600
+installation, 名詞, 設置, 600
+instruction, 名詞, 指示, 600
+insurance, 名詞, 保険, 600
+interaction, 名詞, 相互作用、交流, 600
+interruption, 名詞, 中断, 600
+investment, 名詞, 投資, 600
+involvement, 名詞, 関与, 600
+justification, 名詞, 正当化, 600
+limitation, 名詞, 制限, 600
+maintenance, 名詞, 保守、維持, 600
+management, 名詞, 管理, 600
+manufacturer, 名詞, 製造業者, 600
+measurement, 名詞, 測定, 600
+modification, 名詞, 修正, 600
+negotiation, 名詞, 交渉, 600
+notification, 名詞, 通知, 600
+objective, 名詞, 目的, 600
+obligation, 名詞, 義務, 600
+operation, 名詞, 操作、業務, 600
+opportunity, 名詞, 機会, 600
+option, 名詞, 選択肢, 600
+organization, 名詞, 組織, 600
+participant, 名詞, 参加者, 600
+partnership, 名詞, 協力関係, 600
+payment, 名詞, 支払い, 600
+performance, 名詞, 成績、実行, 600
+permission, 名詞, 許可, 600
+possibility, 名詞, 可能性, 600
+preparation, 名詞, 準備, 600
+priority, 名詞, 優先事項, 600
+procedure, 名詞, 手順, 600
+productivity, 名詞, 生産性, 600
+profession, 名詞, 職業, 600
+proposal, 名詞, 提案, 600
+recognition, 名詞, 認識、表彰, 600
+recommendation, 名詞, 推薦, 600
+reduction, 名詞, 削減, 600
+reflection, 名詞, 反映、熟考, 600
+registration, 名詞, 登録, 600
+regulation, 名詞, 規則, 600
+reliability, 名詞, 信頼性, 600
+reminder, 名詞, 注意喚起, 600
+requirement, 名詞, 要件, 600
+reservation, 名詞, 予約, 600
+resource, 名詞, 資源, 600
+responsibility, 名詞, 責任, 600
+restriction, 名詞, 制限, 600
+retirement, 名詞, 退職, 600
+revision, 名詞, 修正, 600
+selection, 名詞, 選択, 600
+regardless of, 前置詞句, ～にもかかわらず, 800
+in spite of, 前置詞句, ～にもかかわらず, 800
+due to, 前置詞句, ～が理由で, 800
+because of, 前置詞句, ～が理由で, 800
+in accordance with, 前置詞句, ～に従って, 800
+in addition to, 前置詞句, ～に加えて, 800
+with regard to, 前置詞句, ～に関して, 800
+in terms of, 前置詞句, ～の観点から, 800
+in place of, 前置詞句, ～の代わりに, 800
+on behalf of, 前置詞句, ～を代表して, 800
+in light of, 前置詞句, ～を考慮して, 800
+prior to, 前置詞句, ～より前に, 800
+apart from, 前置詞句, ～は別として, 800
+as of, 前置詞句, ～現在で, 800
+in case of, 前置詞句, ～の場合には, 800
+in favor of, 前置詞句, ～に賛成して, 800
+in response to, 前置詞句, ～に応じて, 800
+in contrast to, 前置詞句, ～とは対照的に, 800
+in line with, 前置詞句, ～に沿って, 800
+as long as, 接続詞（区）, ～する限り, 800
+even though, 接続詞（区）, ～だけれども, 800
+so that, 接続詞（区）, ～するために, 800
+provided that, 接続詞（区）, ～という条件で, 800
+as if, 接続詞（区）, まるで～のように, 800
+in case, 接続詞（区）, ～の場合に備えて, 800
+now that, 接続詞（区）, ～なので, 800
+although, 接続詞（区）, ～だけれども, 800
+whereas, 接続詞（区）, ～である一方で, 800
+while, 接続詞（区）, ～する間に、～だけれども, 800
+unless, 接続詞（区）, ～でない限り, 800
+once, 接続詞（区）, 一度～すれば, 800
+until, 接続詞（区）, ～まで, 800
+since, 接続詞（区）, ～以来、～なので, 800
+as soon as, 接続詞（区）, ～するとすぐに, 800
+whenever, 接続詞（区）, ～するたびに, 800
+as though, 接続詞（区）, まるで～のように, 800
+even if, 接続詞（区）, たとえ～でも, 800
+in order that, 接続詞（区）, ～するために, 800
+assuming that, 接続詞（区）, ～と仮定して, 800
+given that, 接続詞（区）, ～を考慮すると, 800
+as far as, 接続詞（区）, ～する限り, 800
+by the time, 接続詞（区）, ～する時までに, 800
+so long as, 接続詞（区）, ～する限り, 800
+only if, 接続詞（区）, ～の場合に限り, 800
+rather than, 接続詞（区）, ～よりむしろ, 800
+ahead of, 前置詞句, ～より先に, 800
+along with, 前置詞句, ～と一緒に, 800
+as for, 前置詞句, ～について言えば, 800
+as to, 前置詞句, ～に関して, 800
+at odds with, 前置詞句, ～と対立して, 800
+at the expense of, 前置詞句, ～を犠牲にして, 800
+by means of, 前置詞句, ～によって, 800
+by virtue of, 前置詞句, ～のおかげで, 800
+contrary to, 前置詞句, ～に反して, 800
+for the sake of, 前置詞句, ～のために, 800
+in excess of, 前置詞句, ～を超えて, 800
+in observance of, 前置詞句, ～を遵守して, 800
+in pursuit of, 前置詞句, ～を追求して, 800
+in recognition of, 前置詞句, ～を認めて, 800
+in relation to, 前置詞句, ～に関連して, 800
+in the event of, 前置詞句, ～の場合には, 800
+in view of, 前置詞句, ～を考慮して, 800
+on account of, 前置詞句, ～の理由で, 800
+on condition that, 接続詞（区）, ～という条件で, 800
+on the grounds that, 接続詞（区）, ～という理由で, 800
+only when, 接続詞（区）, ～のときに限り, 800
+so as to, 前置詞句, ～するために, 800
+supposing that, 接続詞（区）, ～と仮定して, 800
+though, 接続詞（区）, ～だけれども, 800
+whether or not, 接続詞（区）, ～かどうかに関係なく, 800
